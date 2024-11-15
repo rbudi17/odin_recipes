@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  scroll-behavior: smooth;
+  background: whitesmoke;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  max-width: 678px;
+  width: 100%;
+  margin: 2rem auto 0;
+}
+
+.wrapper h1 {
+  background: linear-gradient(125deg, lightblue, lightsalmon);
+  padding: 0.75rem 0;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  margin-bottom: 1.75rem;
+}
+
+.wrapper .recipes-menu {
+  padding: 0 1.75rem;
+}
+
+.recipes-menu a {
+  text-decoration: none;
+  color: #000;
+}
