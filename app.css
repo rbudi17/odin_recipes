@@ -9,6 +9,7 @@ html {
   scroll-behavior: smooth;
   background: whitesmoke;
   font-family: "Poppins", sans-serif;
+  line-height: 1.6;
 }
 
 .wrapper {
@@ -34,4 +35,42 @@ html {
   text-decoration: none;
   color: #000;
   font-size: 1.2rem;
+}
+
+.wrapper .image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 6px;
+  border: 1px solid salmon;
+}
+
+.wrapper .description {
+  margin: 1rem 0 0;
+  text-align: justify;
+}
+
+.wrapper .ingredients,
+.wrapper .instructions {
+  margin: 1rem 0;
+  /* display: inline-block; */
+  background: salmon;
+  color: white;
+  padding: 0.75rem;
+  border-radius: 6px;
+  text-align: right;
+  letter-spacing: 6px;
+}
+
+.wrapper ul,
+.wrapper ol {
+  margin: 0 0 0 1.75rem;
+}
+
+.wrapper h3 {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 6px;
+  background: lightblue;
+  display: inline-block;
 }
