@@ -74,3 +74,16 @@ html {
   background: lightblue;
   display: inline-block;
 }
+
+.back-btn a {
+  position: absolute;
+  top: 32px;
+  left: 10px;
+  padding: 0.75rem 3rem;
+  background: lightblue;
+  border-radius: 6px;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
